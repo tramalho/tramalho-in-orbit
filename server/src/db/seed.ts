@@ -10,15 +10,15 @@ async function seed() {
     .insert(goals)
     .values([
       {
-        name: "Go to the gym",
+        title: "Go to the gym",
         desiredWeeklyFrequency: 5,
       },
       {
-        name: "Read a book",
+        title: "Read a book",
         desiredWeeklyFrequency: 5,
       },
       {
-        name: "Meditate",
+        title: "Meditate",
         desiredWeeklyFrequency: 7,
       },
     ])
